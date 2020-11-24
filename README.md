@@ -2,7 +2,7 @@
 
  Creating a web application for an event management system in PHP
  
- What I Learned:
+# What I Learned:
  
  Used SESSION variables to validate user roles (admin, event manager, attendee) then redirected to designated page.
  
