@@ -1,0 +1,129 @@
+/* 
+Alex Ketavongsa 
+4-22-20
+ISTE-340 Project 2  
+*/
+
+/* set page background color, font type, and center alignment */
+body {
+	background-color: #AFEEEE;
+	font-family: 'Patrick Hand';
+	text-align: center;
+}
+
+/* hide lightbox text from displaying within div */
+#mylightbox {
+	display: none;
+}
+
+/* center lightbox */
+.featherlight .featherlight-inner {
+  display: block !important;
+}
+
+/* style faculty squares */
+.faculty {
+  		background-color: #F76902;
+        border-bottom: 5px solid white;
+        border-right:  5px solid white; 
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        border-spacing: 10px;
+        padding: 10px;
+		display:inline-block;
+		text-align: center;
+		margin: auto;
+		max-width:20%;
+		max-height:100%;
+}
+
+/* set background color for title in slick slider card */
+.title  {
+ 		background-color: #F76902;
+ }
+ 
+/*  styling for accordion boxes and custom height set so content fits when dropped down */
+ .undergraduate, .graduate {
+	 	width: 75%;
+        padding: 10px;
+		display: inline-block;
+		text-align: center;
+		max-height: 100%; 
+		margin: auto;
+		height:350px; 
+ }
+
+/* orange container styling used for introduction */
+.container {
+		background-color: #F76902;
+        border-bottom: 5px solid white;
+        border-right:  5px solid white; 
+        border-left: 5px solid white;
+        border-top: 5px solid white;
+        width: 75%;
+        padding: 10px;
+		float: center;
+		text-align: center;
+		max-height: 100%; 
+		margin: auto;
+		height:300px;
+
+}
+
+/* styling used for slick cards container */
+.minorsSlick {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 47vw;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    height: 50%;
+    background-color: #E1DDCF;
+}
+
+ /* style title for each slick card */  
+.minorsTitle {
+	background-color: #F76902;
+	color: white; 
+}
+
+/* set margin space for minors div so arrows appear in view */
+.minors {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+ 
+
+/* set slick card container to all be the same height */
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+/* set spacing between the slick slides */
+  .slick-slide {
+    margin: 0 27px;
+  }
+/* the parent */
+  .slick-list {
+    margin: 0 -27px;
+  }
+
+/* set color for the arrows that change the slick cards */
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+/* displays the IST map  */
+.map {
+	padding-left: 300px;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
